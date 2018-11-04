@@ -1,25 +1,34 @@
 ---
-title: "Min fina titel"
+title: "Me-sidan i design"
+
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
+
 ---
 Min me-sida i kursen design
 =========================
 
+
+
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/kallslatten.jpg?w=500" class="right" caption="Bild på mig med bröderna bråk"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Detta är min me-sida för kursen htmlphp vid Bleking tekniska högskola.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Vem är då jag? Johan Hanses heter jag, född i Falun, till en början uppvuxen i Leksand vid sjön Siljan och senare mot tonåren i Falun. Det var egentligen mer fram och tillbaka än så, men vi säger så så länge.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Som barn och var det Nintendo och framför allt Zelda serien som var av intresse. Senare mot tonåren så upptäcktes musiken vilken upptog hela tonåren, både lyssnandet och utövandet. Detta ledde i sin tur till att det bildades band och band måste ha en hemsida. På så sätt kom jag i kontakt med HTML och byggde ett otal hemsidor med inline CSS, att koppla ett stylesheet var inget jag hade kunskap om då.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Efter gymnasium och högre studier inom ljudproduktion och religionshistoria, där jag fortfarande satt och knackade bandhemsidor och designade mySpace-sidor kopplade till musikutövandet, så var det dags att börja jobba... på riktigt...
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+Jag började arbeta som maskinbiträde på ett tryckeri och där arbetade jag fram till januari 2018 då jag slutade på tryckeriet, då i från rollen som produktionschef, och dessutom nybliven tvillingfar till Arvid och Elis.
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Jag funderade då mycket på vad jag skulle göra härnäst, Att vidareutbilda mig för att kunna byta branch blev mer och mer det som lockade och att det sedan blev mot webbutveckling låg ju där latent sedan länge. Sen om det blir mot front-end eller back-end eller båda återstår att se, i min forna roll på tryckeriet så jobbade jag mycket med it-ansvarig och utvecklade affärssystemen och ett antal SQL-queries har det blivit sen dess.

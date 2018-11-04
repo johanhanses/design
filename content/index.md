@@ -1,5 +1,5 @@
 ---
-title: "Me-sidan i design"
+title: "Hem"
 
 views:
     byline:

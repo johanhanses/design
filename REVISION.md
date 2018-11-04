@@ -1,9 +1,17 @@
 Revision history
 ================
 
+
+v1.0.3 (2018-11-04)
+
+* kmom01 assignment all steps done first draft. 
+
+
+
+
 v1.0.2 (2018-11-04)
 
-* kmom01 assignment done to req 9. 
+* kmom01 assignment done to req 9.
 
 
 

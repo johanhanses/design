@@ -16,9 +16,8 @@ views:
                 type: single
                 route: block/om-redovisa
 
-
     byline:
-        region: main
+        region: after-main
         template: anax/v2/block/default
         sort: 2
         data:
@@ -33,7 +32,4 @@ Detta innehåll är skrivet i markdown och du hittar innehållet i filen `conten
 
 Denna sida är skapad i kursen [Teknisk webbdesign och användbarhet, a.k.a. design](https://dbwebb.se/kurser/design-v2) vid Blekinge tekniska högskola
 
-
-
-
-[FIGURE src=image/ombild.jpeg?w=300 caption="En frän bild på ett lejon."]
+<img src=image/ombild.jpeg alt="lejon">

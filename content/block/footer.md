@@ -1,1 +1,1 @@
-Copyright 2018 Johan Hanses samt diverse länkar.
+&copy; 2018 Johan Hanses.

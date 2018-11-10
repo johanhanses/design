@@ -21,6 +21,7 @@ Detta innehåll är skrivet i markdown och du hittar innehållet i filen `conten
 
 [FIGURE src="image/kallslatten.jpg?w=500" class="right" caption="Bild på mig med bröderna bråk"]
 
+
 Detta är min me-sida för kursen htmlphp vid Bleking tekniska högskola.
 
 Vem är då jag? Johan Hanses heter jag, född i Falun, till en början uppvuxen i Leksand vid sjön Siljan och senare mot tonåren i Falun. Det var egentligen mer fram och tillbaka än så, men vi säger så så länge.

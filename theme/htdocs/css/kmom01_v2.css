@@ -20,6 +20,14 @@
  * This stylesheet is for the design course and kmom01. Fill it with style
  * to style up the website so it is useable.
  */
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
 .site-logo-text a {
   color: black;
   text-decoration: none;
@@ -92,6 +100,12 @@ body {
 article {
   overflow: auto;
 }
+a {
+  color: black;
+}
+figcaption {
+  font-style: italic;
+}
 .row::after {
   content: "";
   display: block;
@@ -108,14 +122,6 @@ article {
 /**
  * Variables
  */
-/* Hide submenu, leave this to kmom02 */
-.rm-desktop ul {
-  display: none;
-}
-/* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-  display: none;
-}
 /**
  * General layout
  */
@@ -171,6 +177,12 @@ article {
 .byline {
   clear: both;
   display: inline-flex;
+}
+.region-footer {
+  background-color: #333;
+  overflow: auto;
+  color: white;
+  padding: 8px;
 }
 .footer-column {
   width: 33%;

@@ -22,7 +22,7 @@ Detta innehåll är skrivet i markdown och du hittar innehållet i filen `conten
 [FIGURE src="image/kallslatten.jpg?w=500" class="right" caption="Bild på mig med bröderna bråk"]
 
 
-Detta är min me-sida för kursen htmlphp vid Bleking tekniska högskola.
+Detta är min me/redovisa-sida för kursen design vid Bleking tekniska högskola.
 
 Vem är då jag? Johan Hanses heter jag, född i Falun, till en början uppvuxen i Leksand vid sjön Siljan och senare mot tonåren i Falun. Det var egentligen mer fram och tillbaka än så, men vi säger så så länge.
 
@@ -32,4 +32,4 @@ Efter gymnasium och högre studier inom ljudproduktion och religionshistoria, d�
 
 Jag började arbeta som maskinbiträde på ett tryckeri och där arbetade jag fram till januari 2018 då jag slutade på tryckeriet, då i från rollen som produktionschef, och dessutom nybliven tvillingfar till Arvid och Elis.
 
-Jag funderade då mycket på vad jag skulle göra härnäst, Att vidareutbilda mig för att kunna byta branch blev mer och mer det som lockade och att det sedan blev mot webbutveckling låg ju där latent sedan länge. Sen om det blir mot front-end eller back-end eller båda återstår att se, i min forna roll på tryckeriet så jobbade jag mycket med it-ansvarig och utvecklade affärssystemen och ett antal SQL-queries har det blivit sen dess.
+Jag funderade då mycket på vad jag skulle göra härnäst, att vidareutbilda mig för att kunna byta branch blev mer och mer det som lockade och att det sedan blev mot webbutveckling låg ju där latent sedan länge. Sen om det blir mot front-end eller back-end eller båda återstår att se, i min forna roll på tryckeriet så jobbade jag mycket med it-ansvarig och utvecklade affärssystemen och ett antal SQL-queries har det blivit sen dess.

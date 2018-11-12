@@ -1,11 +1,16 @@
 Revision history
 ================
 
+v2.0.0 (2018-11-12)
+
+* kmom02 assignment done to step 4.
+
+
 
 v1.0.4 (2018-11-10)
 
 * kmom01 assignment all steps done, second draft, with redovisatext.
- changed the style and used css more according to lectures. 
+ changed the style and used css more according to lectures.
 
 
 

@@ -1,6 +1,13 @@
 Revision history
 ================
 
+
+v2.0.2 (2018-11-15)
+
+* kmom02 done except redovisatext.
+
+
+
 v2.0.1 (2018-11-12)
 
 * kmom02 assignment done to step 6.

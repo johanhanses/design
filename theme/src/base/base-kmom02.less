@@ -4,6 +4,7 @@
 @bgColorHtml: #fff;
 @bgColorBody: #fff;
 @colorBody: black;
+@colorHeadAndFoot: #fff;
 @linkColor: black;
 @bgColorHeader: black;
 @bgColorFooter: black;
@@ -15,7 +16,6 @@ html {
 }
 
 body {
-    max-width: 1100px;
     margin: 0 auto;
     padding: 0;
     color: @colorBody;
@@ -27,9 +27,22 @@ article {
     overflow: auto;
 }
 
+img {
+    max-width: 100%;
+    border: 1px solid black;
+}
+
 a {
     color: @linkColor;
 }
+
+li {
+    list-style: none;
+}
+
+// h1 {
+//     border-bottom: 1px solid black;
+// }
 
 figcaption {
     font-style: italic;

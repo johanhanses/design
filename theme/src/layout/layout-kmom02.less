@@ -9,7 +9,6 @@
 
 
 
-
 // /* Hide submenu, leave this to kmom02 */
 // .rm-desktop ul {
 //     display: none;
@@ -20,50 +19,73 @@
 //     display: none;
 // }
 
+
+
 /**
- * General layout
+ * header layout
  */
+.inner-wrap-header {
+    max-width: 100%;
+    background-color: @bgColorHeader;
+    color: @colorHeadAndFoot;
+}
+
 .site-logo {
     display: none;
 }
 
-.region-header-col-1 {
+.region-header-col-1,
+.region-header-col-3 {
     float: left;
+    width: 19.5%;
+    // min-height: 10px;
+    overflow: hidden;
 }
 
 .region-header-col-2 {
-    float: right;
-}
-
-.inner-wrap-flash img {
-    max-width: 100%;
-    border: 1px solid black;
-}
-
-.inner-wrap-main {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 8px;
-}
-
-.region-main.has-sidebar-right {
-    display: inline;
     float: left;
     width: 60%;
-    margin-right: .52083333%;
-    margin-left: .52083333%;
+    text-align: center;
+    // overflow: hidden;
 }
 
+.rm-desktop ul {
+    background-color: @bgColorHeader;
+    opacity: 0.7;
+}
+
+.inner-wrap-flash {
+    max-width: 960px;
+    margin: auto;
+}
+
+.inner-wrap-breadcrumb {
+    max-width: 960px;
+    margin: auto;
+}
+
+
+
+/**
+ * Main layout
+ */
+.inner-wrap-main,
+.inner-wrap-after-main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.region-main.has-sidebar-right,
 .region-main.has-sidebar-left {
-    display: inline;
-    float: right;
-    width: 60%;
-    margin-right: .52083333%;
-    margin-left: .52083333%;
+    float: left;
+    min-width: 35%;
+    max-width: 65%;
+    padding: 1em;
 }
 
 .region-sidebar-right {
-    float: right;
+    float: left;
     width: 30%;
 }
 
@@ -72,15 +94,12 @@
     width: 30%;
 }
 
+/**
+ * misc
+ */
 .right {
     float: right;
-    margin-left: 8px;
-}
-
-.inner-wrap-after-main {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 8px;
+    margin-left: 1em;
 }
 
 .byline {
@@ -88,11 +107,19 @@
     display: inline-flex;
 }
 
+/**
+ * footer layout
+ */
 .region-footer {
-    background-color: #333;
+    background-color: @bgColorFooter;
     overflow: auto;
-    color: white;
+    color: @colorHeadAndFoot;
     padding: 8px;
+}
+
+.footer-column-wrapper {
+    max-width: 960px;
+    margin: auto;
 }
 
 .footer-column {

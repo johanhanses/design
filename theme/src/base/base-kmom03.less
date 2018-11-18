@@ -1,0 +1,56 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #fff;
+@bgColorBody: #fff;
+@colorBody: black;
+@colorHeadAndFoot: #fff;
+@linkColor: black;
+@bgColorHeader: black;
+@bgColorFooter: black;
+@fontFamilyBody: 'Montserrat', sans-serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+    font-size: 100%;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font-family: @fontFamilyBody;
+}
+
+article {
+    overflow: auto;
+}
+
+img {
+    max-width: 100%;
+    border: 1px solid black;
+}
+
+a {
+    color: @linkColor;
+}
+
+li {
+    list-style: none;
+}
+
+// h1 {
+//     border-bottom: 1px solid black;
+// }
+
+figcaption {
+    font-style: italic;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}

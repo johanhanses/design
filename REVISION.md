@@ -2,6 +2,12 @@ Revision history
 ================
 
 
+
+v.3.0.0 (2018-11-22)
+
+* kmom03 done to step 2.
+
+
 v.2.0.3 (2018-11-17)
 * kmom02 completed.
 

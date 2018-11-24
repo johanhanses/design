@@ -1,16 +1,17 @@
 /**
  * Base style to affect HTML elements on a general scale.
  */
-@bgColorHtml: #fff;
-@bgColorBody: #fff;
-@colorBody: black;
-@colorHeadAndFoot: #fff;
-@linkColor: black;
-@bgColorHeader: black;
-@bgColorFooter: black;
+@bgColorHtml: #eee;
+@bgColorBody: #eee;
+@colorBody: #333;
+@colorHeadAndFoot: #eee;
+@linkColor: #333;
+@bgColorHeader: #333;
+@bgColorFooter: #333;
 
 html {
     overflow-y: scroll;
+    font-size: 100%;
     // background-color: @bgColorHtml;
 }
 
@@ -19,6 +20,8 @@ body {
     padding: 0;
     color: @colorBody;
     background-color: @bgColorBody;
+    #desinax-hgrid.font(@fontSizeBody);
+    font-weight: 400;
 }
 
 article {
@@ -29,7 +32,7 @@ img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    border: 1px solid black;
+    border: 1px solid #333;
 }
 
 a {
@@ -48,4 +51,27 @@ figcaption {
     content: "";
     display: block;
     clear: both;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+// Adapt the typographic grid to my style
+@fontFamilyHeadings: @fontFamilyCalibri; //"serif";
+@fontFamilyBody:     @fontFamilyHelvetica; //"sans-serif";
+@fontFamilyCode:     @fontFamilyGaramond; //"monospace";
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 18px;
+
+// extra mega saker
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 200;
+
 }

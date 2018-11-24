@@ -4681,19 +4681,17 @@ figcaption {
 /**
  * footer layout
  */
-.region-footer {
+.inner-wrap-footer {
   background-color: black;
-  overflow: auto;
   color: #fff;
-  padding: 8px;
 }
-.footer-column-wrapper {
+.region-footer {
   max-width: 960px;
   margin: auto;
+  overflow: auto;
 }
 .footer-column {
   width: 33%;
-  height: 200px;
   display: inline-block;
   overflow: auto;
 }

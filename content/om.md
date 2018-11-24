@@ -32,4 +32,5 @@ Detta innehåll är skrivet i markdown och du hittar innehållet i filen `conten
 
 Denna sida är skapad i kursen [Teknisk webbdesign och användbarhet, a.k.a. design](https://dbwebb.se/kurser/design-v2) vid Blekinge tekniska högskola
 
+<!-- <img src="image/ombild.jpeg"> -->
 [FIGURE src="image/ombild.jpeg" caption="En frän bild på ett lejon"]

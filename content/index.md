@@ -19,7 +19,8 @@ Min me-sida i kursen design
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/kallslatten.jpg?w=500" class="right" caption="Bild på mig med bröderna bråk"]
+<!-- <img src=image/kallslatten.jpg?w=400 class="right"> -->
+[FIGURE src="image/kallslatten.jpg?w=400" class="right" caption="Bild på mig med bröderna bråk"]
 
 
 Detta är min me/redovisa-sida för kursen design vid Bleking tekniska högskola.

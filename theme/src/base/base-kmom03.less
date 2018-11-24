@@ -8,12 +8,10 @@
 @linkColor: black;
 @bgColorHeader: black;
 @bgColorFooter: black;
-@fontFamilyBody: 'Montserrat', sans-serif;
 
 html {
-    // overflow-y: scroll;
-    background-color: @bgColorHtml;
-    font-size: 100%;
+    overflow-y: scroll;
+    // background-color: @bgColorHtml;
 }
 
 body {
@@ -21,7 +19,6 @@ body {
     padding: 0;
     color: @colorBody;
     background-color: @bgColorBody;
-    font-family: @fontFamilyBody;
 }
 
 article {
@@ -29,6 +26,8 @@ article {
 }
 
 img {
+    margin: 0;
+    padding: 0;
     max-width: 100%;
     border: 1px solid black;
 }
@@ -40,10 +39,6 @@ a {
 li {
     list-style: none;
 }
-
-// h1 {
-//     border-bottom: 1px solid black;
-// }
 
 figcaption {
     font-style: italic;

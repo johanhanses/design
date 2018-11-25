@@ -1,6 +1,21 @@
 Revision history
 ================
 
+
+
+
+
+v.3.1.2 (2018-11-25)
+---------------------
+* kmom03 done except redovisatext
+
+
+v.3.1.1 (2018-11-24)
+---------------------
+* kmom03 pretty much done
+
+
+
 v.3.1.0 (2018-11-24)
 ---------------------
 * remake of kmom03 due to grid issues

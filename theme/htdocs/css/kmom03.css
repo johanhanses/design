@@ -4700,8 +4700,8 @@ h4 + h5 {
 h5 {
   font-size: 1.25em;
   line-height: 1.06666667;
-  margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  margin-bottom: 24px;
+  border-bottom: 0px solid #EEE;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -4709,8 +4709,8 @@ h5 + h6 {
 h6 {
   font-size: 1.25em;
   line-height: 1.06666667;
-  margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  margin-bottom: 24px;
+  border-bottom: 0px solid #EEE;
 }
 p {
   margin-bottom: 24px;
@@ -5114,7 +5114,29 @@ h6 {
 /**
  * misc
  */
-.next-previous .next {
+.next-previous {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-bottom: 18px;
+}
+.previous {
+  display: inline;
+  float: left;
+  width: 48.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: -99.47916667%;
+}
+.next {
+  display: inline;
+  float: left;
+  width: 48.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 50.52083333%;
   text-align: right;
 }
 .right {
@@ -5211,6 +5233,9 @@ h6 {
 }
 .region-footer {
   margin-bottom: 18px;
+}
+.region-footer a {
+  color: #eee;
 }
 .footer-column {
   display: inline;

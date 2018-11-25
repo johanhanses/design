@@ -144,23 +144,21 @@
 /**
  * misc
  */
-.region-main .has-sidebar .next-previous {
-    // #desinax-vgrid.column(@columns);
-    // #desinax-vgrid.column();
-
+.next-previous {
+    #desinax-vgrid.column(@columns);
+    margin-bottom: 18px;
 }
 
 
-.next-previous .previous {
-    // #desinax-vgrid.column(@columns / 2);
-    // #desinax-vgrid.pull(22)
+.previous {
+    #desinax-vgrid.column(@columns / 2);
+    #desinax-vgrid.pull(@columns)
 
 }
 
-.next-previous .next {
-    // #desinax-vgrid.column(@columns / 2);
-    // #desinax-vgrid.push(9);
-    // float: right;
+.next {
+    #desinax-vgrid.column(@columns / 2);
+    #desinax-vgrid.push(@columns / 2);
     text-align: right;
 }
 
@@ -233,6 +231,10 @@
 
 .region-footer {
     margin-bottom: 18px;
+}
+
+.region-footer a {
+    color: @linkColorFooter;
 }
 
 .footer-column {

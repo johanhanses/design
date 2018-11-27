@@ -2,7 +2,10 @@ Revision history
 ================
 
 
-
+v.3.1.3 (2018-11-27)
+---------------------
+* Added some style to the .selected class and wrote the report text.
+kmom03 done, for now...
 
 
 v.3.1.2 (2018-11-25)

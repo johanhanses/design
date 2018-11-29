@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 /**
  * Normalize and reset the style.
@@ -4606,19 +4606,12 @@ html {
 body {
   margin: 0 auto;
   padding: 0;
-  color: #333;
-  background-color: #eee;
-  font: 16px/1.5 Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font: 16px/1.5 "sans-serif";
 }
 img {
   margin: 0;
   padding: 0;
   max-width: 100%;
-  border: 1px solid #333;
-}
-a {
-  color: #333;
 }
 li {
   list-style: none;
@@ -4637,7 +4630,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "serif";
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4915,14 +4908,6 @@ hr::after {
   padding: 0 0.25em;
   background-color: #fff;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 200;
-}
 /**
  * Import the vertical grid.
  */
@@ -4961,18 +4946,6 @@ h6 {
 /**
  * Generall layout
  */
-.row {
-  display: block;
-  width: 101.04166667%;
-  margin-left: -0.52083333%;
-  margin-right: -0.52083333%;
-  margin-bottom: 24px;
-}
-.row::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 .inner-wrap {
   margin-right: auto;
   margin-left: auto;
@@ -5006,14 +4979,12 @@ h6 {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  background-color: #333;
-  color: #eee;
+  margin-bottom: 24px;
 }
 .site-logo {
   display: none;
 }
 .site-logo-text a {
-  color: #eee;
   text-decoration: none;
 }
 .region-header-col-1,
@@ -5033,7 +5004,6 @@ h6 {
   text-align: center;
 }
 .rm-desktop ul {
-  background-color: #333;
   opacity: 0.8;
 }
 .region-flash {
@@ -5042,6 +5012,7 @@ h6 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-bottom: 24px;
 }
 .region-breadcrumb {
   display: inline;
@@ -5049,6 +5020,7 @@ h6 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-bottom: 24px;
 }
 .breadcrumb-list li,
 .bullet-list li {
@@ -5061,6 +5033,13 @@ h6 {
 /**
  * Main layout
  */
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right,
+.has-sidebar-right.has-sidebar-left,
+.has-sidebar {
+  margin-bottom: 24px;
+}
 .region-main {
   display: inline;
   float: left;
@@ -5111,6 +5090,7 @@ h6 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-bottom: 24px;
 }
 /**
  * misc
@@ -5121,6 +5101,7 @@ h6 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-bottom: 24px;
 }
 .previous {
   display: inline;
@@ -5168,6 +5149,7 @@ h6 {
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+    margin-bottom: 24px;
   }
   .region-sidebar-left {
     display: inline;
@@ -5175,6 +5157,7 @@ h6 {
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+    margin-bottom: 24px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -5184,6 +5167,7 @@ h6 {
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+    margin-bottom: 24px;
   }
   .region-sidebar-right {
     display: inline;
@@ -5191,6 +5175,7 @@ h6 {
     width: 98.95833333%;
     margin-right: 0.52083333%;
     margin-left: 0.52083333%;
+    margin-bottom: 24px;
   }
   .region-main {
     display: inline;
@@ -5198,7 +5183,7 @@ h6 {
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
-    margin-bottom: 18px;
+    margin-bottom: 24px;
   }
   .region-main.has-sidebar-right.has-sidebar-left {
     display: inline;
@@ -5206,6 +5191,7 @@ h6 {
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+    margin-bottom: 24px;
   }
   .region-sidebar-left.has-sidebar-right,
   .region-sidebar-right.has-sidebar-left {
@@ -5214,19 +5200,14 @@ h6 {
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+    margin-bottom: 24px;
   }
 }
 /**
  * footer layout
  */
-.outer-wrap-footer {
-  background-color: #333;
-}
-.inner-wrap-footer {
-  color: #eee;
-}
-.region-footer a {
-  color: #eee;
+.region-footer {
+  margin-bottom: 24px;
 }
 .footer-column {
   display: inline;
@@ -5241,7 +5222,6 @@ h6 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  margin-top: 12px;
   text-align: center;
 }
 /**
@@ -5254,6 +5234,7 @@ h6 {
     width: 98.95833333%;
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
+    margin-bottom: 24px;
   }
 }
 /**

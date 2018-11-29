@@ -2,6 +2,13 @@ Revision history
 ================
 
 
+
+v.3.1.4 (2018-11-29)
+---------------------
+* Made some changes to kmom03 and started kmom04
+
+
+
 v.3.1.3 (2018-11-27)
 ---------------------
 * Added some style to the .selected class and wrote the report text.

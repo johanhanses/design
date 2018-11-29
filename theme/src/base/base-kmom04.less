@@ -1,0 +1,50 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+html {
+    overflow-y: scroll;
+    font-size: 100%;
+    // background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    // color: @colorBody;
+    //background-color: @bgColorBody;
+    #desinax-hgrid.font(@fontSizeBody);
+    //font-weight: 400;
+}
+
+article {
+    // overflow: auto;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    //border: 1px solid #333;
+}
+
+a {
+    //color: @linkColor;
+}
+
+li {
+    list-style: none;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();

@@ -4611,7 +4611,7 @@ html {
 body {
   margin: 0 auto;
   padding: 0;
-  font: 16px/1.5 "sans-serif";
+  font: 16px/1.5 'Lato', 'sans-serif';
 }
 img {
   margin: 0;
@@ -4635,7 +4635,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: 'Lato', 'sans-serif';
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5120,6 +5120,7 @@ hr::after {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-bottom: 24px;
 }
 .previous {
   display: inline;
@@ -5406,4 +5407,39 @@ hr::after {
  */
 .selected {
   font-style: italic;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+.inner-wrap-header {
+  background-color: #352527;
+}
+.rm-desktop ul {
+  background-color: #352527;
+  opacity: 1;
+}
+.outer-wrap-flash {
+  display: none;
+}
+a {
+  color: #eee;
+}
+html {
+  background-color: #352527;
+}
+body {
+  background-color: #352527;
+  color: #eee;
+}
+code {
+  background-color: #352527;
+  border: none;
+}
+.outer-wrap-footer {
+  background-color: #352527;
+  color: #eee;
+  overflow: auto;
 }

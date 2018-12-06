@@ -5120,6 +5120,7 @@ hr::after {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-bottom: 24px;
 }
 .previous {
   display: inline;
@@ -5439,4 +5440,8 @@ a {
 }
 body {
   background-color: #eee;
+}
+code {
+  background-color: #eee;
+  border: none;
 }

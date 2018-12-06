@@ -4,20 +4,64 @@
  * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 @import "kmom04-basetheme.less";
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
 
-// //colors
-// @bgColorHtml: #eee;
-// @bgColorBody: #eee;
-// @colorBody: #333;
-// @colorHeadAndFoot: #eee;
-// @linkColor: #333;
-// @linkColorFooter: #eee;
-// @bgColorHeader: #333;
-// @bgColorFooter: #333;
+// header stuff
+.inner-wrap-header {
+    background-color: @bgColorHeader;
+    //color: @colorHeadAndFoot;
+}
+
+.rm-desktop ul {
+    background-color: @bgColorHeader;
+    opacity: 1;
+}
+
+//hide flash img
+.outer-wrap-flash {
+    display: none;
+}
+
+//general style
+a {
+    color: @linkColor;
+}
+
+html {
+    background-color: @bgColorHtml;
+}
+
+body {
+    background-color: @bgColorBody;
+    color: @colorBody;
+}
+
+code {
+    background-color: @bgColorBody;
+    border: none;
+}
+
+// footer stuff
+.outer-wrap-footer {
+    background-color: @bgColorFooter;
+    color: @colorHeadAndFoot;
+    overflow: auto;
+}
+
+//colors
+
+@bgColorHtml: #352527;
+@bgColorBody: #352527;
+@colorBody: #eee;
+@colorHeadAndFoot: #eee;
+@linkColor: #eee;
+@linkColorFooter: #333;
+@bgColorHeader: #352527;
+@bgColorFooter: #352527;
 //
 // // Adapt the typographic grid to my style
-// @fontFamilyHeadings: @fontFamilyCalibri; //"serif";
-// @fontFamilyBody:     @fontFamilyHelvetica; //"sans-serif";
+@fontFamilyHeadings: 'Lato', 'sans-serif';
+@fontFamilyBody: 'Lato', 'sans-serif';
 // @fontFamilyCode:     @fontFamilyGaramond; //"monospace";
 //
 // Magic number and base fontsize

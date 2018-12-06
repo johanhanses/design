@@ -2,6 +2,11 @@ Revision history
 ================
 
 
+v.4.0.2 (2018-12-06)
+---------------------
+* Finished color analys and all steps of themes assigment except report text. 
+
+
 v.4.0.1 (2018-12-06)
 ---------------------
 * Finished color analys and minimalistic theme, started colorful theme

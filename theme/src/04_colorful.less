@@ -4,57 +4,69 @@
  * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 @import "kmom04-basetheme.less";
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700');
+@import url('https://fonts.googleapis.com/css?family=Acme');
 
 // header stuff
 .inner-wrap-header {
     background-color: @bgColorHeader;
     //color: @colorHeadAndFoot;
+    .row {
+        margin-bottom: 0px;
+    }
 }
 
 .rm-desktop ul {
-    //background-color: @bgColorHeader;
+    background-color: @bgColorHeader;
     opacity: 0.8;
 }
 
-//hide flash img
-.outer-wrap-flash {
-    // display: none;
-}
+
 
 //general style
 a {
     color: @linkColor;
 }
 
+html {
+    background-color: @bgColorHtml;
+}
+
 body {
     background-color: @bgColorBody;
+    color: @colorBody;
+}
+
+code {
+    background-color: @bgColorBody;
+    border: none;
 }
 
 // footer stuff
 .outer-wrap-footer {
     background-color: @bgColorFooter;
+    color: @colorHeadAndFoot;
+    overflow: auto;
 }
 
 //colors
 
-@bgColorHtml: #eee;
-@bgColorBody: #eee;
-// @colorBody: #333;
-// @colorHeadAndFoot: #eee;
-@linkColor: #456439;
+@bgColorHtml: #ADF146;
+@bgColorBody: #ADF146;
+@colorBody: #8814A5;
+@colorHeadAndFoot: #8814A5;
+@linkColor: #470158;
 // @linkColorFooter: #333;
-@bgColorHeader: #395808;
-@bgColorFooter: #395808;
+@bgColorHeader: #70A51F;
+@bgColorFooter: #70A51F;
 //
 // // Adapt the typographic grid to my style
-// @fontFamilyHeadings: 'Source Sans Pro', 'sans-serif';
-// @fontFamilyBody: 'Source Sans Pro', 'sans-serif';
+@fontFamilyHeadings: 'Acme', 'sans-serif';
+@fontFamilyBody: 'Acme', 'sans-serif';
 // @fontFamilyCode:     @fontFamilyGaramond; //"monospace";
 //
 // Magic number and base fontsize
 @magicNumber:  24px;  // 22px
-@fontSizeBody: 18px;
+@fontSizeBody: 16px;
 //
 // // extra mega saker
 // h1,

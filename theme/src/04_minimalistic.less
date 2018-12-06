@@ -1,112 +1,64 @@
 /*!
- * MinimalisticTheme for design kmom04.
+ * Minimalistic theme for design kmom04.
  *
  * This stylesheet is for the design course and kmom04 where we use LESS.
  */
-/**
- * Normalize and reset the style.
- */
-@import "normalize.css/normalize.less";
+@import "kmom04-basetheme.less";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700');
 
+//hide header stuff
+.region-header-col-1 img {
+    display: none;
+}
 
+.site-logo-text {
+    display: none;
+}
 
-//import font-style
-// @import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+.region-header-col-2 {
+    #desinax-vgrid.push(5);
+}
 
+.rm-desktop ul {
+    display: none;
+}
 
+//hide flash img
+.outer-wrap-flash {
+    display: none;
+}
 
-/**
- * Font Awesome.
- */
-@import "@fortawesome/fontawesome-free/less/fontawesome.less";
-@import "@fortawesome/fontawesome-free/less/solid.less";
-@import "@fortawesome/fontawesome-free/less/brands.less";
+//style
+a {
+    color: @linkColor;
+}
 
-
-
-/**
- * Internal self contained modules, save in directory module/.
- */
-
-
-
-// @import "module/kmom01.less";
-@import "module/stylechooser.less";  // Just an example module
-
-
-
-/**
- * A responsive menu.
- */
-@import "@desinax/responsive-menu/less/responsive-menu.less";
-// @import "@desinax/responsive-menu/less/media-queries.less";
-
-
-
-/**
- * Import the typographic grid.
- */
-@import "@desinax/typographic-grid/less/typography-font-families.less";
-@import "@desinax/typographic-grid/less/typography-defaults.less";
-
-// Show the grid
-.hgrid .inner-wrap {
-    @gridImage: "../img/magic-number-@{magicNumber}.png";
-    #desinax-hgrid.showGrid(@gridImage);
+body {
+    background-color: @bgColorBody;
+    // font-family: @fontFamilyBody;
 }
 
 
 
-/**
- * Base style to affect HTML elements on a general scale.
- */
-@import "base/base-kmom04.less";
+//colors
 
-
-
-/**
- * Import the vertical grid.
- */
-@import "@desinax/vertical-grid/less/grid.less";
-@import "layout/layout-kmom04.less";
-
-
-
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-// @import "layout/layout-kmom02.less";
-@import "layout/responsive-kmom03.less";
-@import "layout/regions.less"; // To add style for ?regions
-
-
-
-/**
- * My own settings, not currently in their own module.
- */
-.selected {
-    font-style: italic;
-}
-
-// //colors
 // @bgColorHtml: #eee;
-// @bgColorBody: #eee;
+@bgColorBody: #eee;
 // @colorBody: #333;
 // @colorHeadAndFoot: #eee;
-// @linkColor: #333;
-// @linkColorFooter: #eee;
+@linkColor: #456439;
+// @linkColorFooter: #333;
 // @bgColorHeader: #333;
 // @bgColorFooter: #333;
 //
 // // Adapt the typographic grid to my style
-// @fontFamilyHeadings: @fontFamilyCalibri; //"serif";
-// @fontFamilyBody:     @fontFamilyHelvetica; //"sans-serif";
+@fontFamilyHeadings: 'Source Sans Pro', 'sans-serif';
+@fontFamilyBody: 'Source Sans Pro', 'sans-serif';
 // @fontFamilyCode:     @fontFamilyGaramond; //"monospace";
 //
 // Magic number and base fontsize
 @magicNumber:  24px;  // 22px
-@fontSizeBody: 16px;
+@fontSizeBody: 18px;
 //
 // // extra mega saker
 // h1,

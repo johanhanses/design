@@ -1,112 +1,60 @@
 /*!
- * ColorfulTheme for design kmom04.
+ * Colorful theme for design kmom04.
  *
  * This stylesheet is for the design course and kmom04 where we use LESS.
  */
-/**
- * Normalize and reset the style.
- */
-@import "normalize.css/normalize.less";
+@import "kmom04-basetheme.less";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700');
 
-
-
-//import font-style
-// @import url('https://fonts.googleapis.com/css?family=Montserrat:300');
-
-
-
-/**
- * Font Awesome.
- */
-@import "@fortawesome/fontawesome-free/less/fontawesome.less";
-@import "@fortawesome/fontawesome-free/less/solid.less";
-@import "@fortawesome/fontawesome-free/less/brands.less";
-
-
-
-/**
- * Internal self contained modules, save in directory module/.
- */
-
-
-
-// @import "module/kmom01.less";
-@import "module/stylechooser.less";  // Just an example module
-
-
-
-/**
- * A responsive menu.
- */
-@import "@desinax/responsive-menu/less/responsive-menu.less";
-// @import "@desinax/responsive-menu/less/media-queries.less";
-
-
-
-/**
- * Import the typographic grid.
- */
-@import "@desinax/typographic-grid/less/typography-font-families.less";
-@import "@desinax/typographic-grid/less/typography-defaults.less";
-
-// Show the grid
-.hgrid .inner-wrap {
-    @gridImage: "../img/magic-number-@{magicNumber}.png";
-    #desinax-hgrid.showGrid(@gridImage);
+// header stuff
+.inner-wrap-header {
+    background-color: @bgColorHeader;
+    //color: @colorHeadAndFoot;
 }
 
-
-
-/**
- * Base style to affect HTML elements on a general scale.
- */
-@import "base/base-kmom04.less";
-
-
-
-/**
- * Import the vertical grid.
- */
-@import "@desinax/vertical-grid/less/grid.less";
-@import "layout/layout-kmom04.less";
-
-
-
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-// @import "layout/layout-kmom02.less";
-@import "layout/responsive-kmom03.less";
-@import "layout/regions.less"; // To add style for ?regions
-
-
-
-/**
- * My own settings, not currently in their own module.
- */
-.selected {
-    font-style: italic;
+.rm-desktop ul {
+    //background-color: @bgColorHeader;
+    opacity: 0.8;
 }
 
-// //colors
-// @bgColorHtml: #eee;
-// @bgColorBody: #eee;
+//hide flash img
+.outer-wrap-flash {
+    // display: none;
+}
+
+//general style
+a {
+    color: @linkColor;
+}
+
+body {
+    background-color: @bgColorBody;
+}
+
+// footer stuff
+.outer-wrap-footer {
+    background-color: @bgColorFooter;
+}
+
+//colors
+
+@bgColorHtml: #eee;
+@bgColorBody: #eee;
 // @colorBody: #333;
 // @colorHeadAndFoot: #eee;
-// @linkColor: #333;
-// @linkColorFooter: #eee;
-// @bgColorHeader: #333;
-// @bgColorFooter: #333;
+@linkColor: #456439;
+// @linkColorFooter: #333;
+@bgColorHeader: #395808;
+@bgColorFooter: #395808;
 //
 // // Adapt the typographic grid to my style
-// @fontFamilyHeadings: @fontFamilyCalibri; //"serif";
-// @fontFamilyBody:     @fontFamilyHelvetica; //"sans-serif";
+// @fontFamilyHeadings: 'Source Sans Pro', 'sans-serif';
+// @fontFamilyBody: 'Source Sans Pro', 'sans-serif';
 // @fontFamilyCode:     @fontFamilyGaramond; //"monospace";
 //
 // Magic number and base fontsize
 @magicNumber:  24px;  // 22px
-@fontSizeBody: 16px;
+@fontSizeBody: 18px;
 //
 // // extra mega saker
 // h1,

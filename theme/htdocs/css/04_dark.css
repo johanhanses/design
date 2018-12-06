@@ -1,5 +1,10 @@
 /*!
- * DarkTheme for design kmom04.
+ * Dark theme for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+/*!
+ * BaseTheme for design kmom04.
  *
  * This stylesheet is for the design course and kmom04 where we use LESS.
  */
@@ -5031,6 +5036,9 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
+.breadcrumb-list ul {
+  margin-top: 24px;
+}
 .breadcrumb-list li,
 .bullet-list li {
   display: inline;
@@ -5049,6 +5057,7 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 8.85416667%;
+  min-height: 20em;
 }
 .region-main.has-sidebar {
   margin-left: 0.52083333%;
@@ -5096,6 +5105,15 @@ hr::after {
 /**
  * misc
  */
+.level-0 {
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+.section-header {
+  margin-bottom: 12px;
+  margin-top: 12px;
+  font-weight: bold;
+}
 .next-previous {
   display: inline;
   float: left;
@@ -5214,6 +5232,7 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   text-align: center;
+  margin-top: 12px;
 }
 /**
  * footer responsive layout for 3 columns
@@ -5308,6 +5327,79 @@ hr::after {
   background-color: #b5dce1;
   border: 1px solid #6cbac4;
   color: #111;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v12/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf) format('truetype');
+}
+.msb h1 {
+  font-family: Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", FreeSans;
+  font-weight: 700;
+  font-size: 25px;
+}
+.msb h2 {
+  font-family: Verdana, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, Geneva, Arial;
+  font-weight: 700;
+  font-size: 15px;
+}
+.msb h3 {
+  font-family: Verdana, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, Geneva, Arial;
+  font-weight: 700;
+  font-size: 12px;
+}
+.msb p {
+  font-family: Verdana, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, Geneva, Arial;
+  font-weight: 400;
+  font-size: 12px;
+}
+.banan h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 38.0833px;
+}
+.banan h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 33.2833px;
+  font-size: 25.6px;
+}
+.banan h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.banan p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.tall h1 {
+  font-family: "Calder Dark", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.tall h2 {
+  font-family: "Calder Dark", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.tall h3 {
+  font-family: "Calder Dark", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.tall p {
+  font-family: "Calder Dark", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 /**
  * My own settings, not currently in their own module.

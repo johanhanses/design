@@ -1,0 +1,61 @@
+.msb h1 {
+  font-family: Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", FreeSans;
+  font-weight: 700;
+  font-size: 25px;
+}
+.msb h2 {
+  font-family: Verdana, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, Geneva, Arial;
+  font-weight: 700;
+  font-size: 15px;
+}
+.msb h3 {
+  font-family: Verdana, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, Geneva, Arial;
+  font-weight: 700;
+  font-size: 12px;
+}
+.msb p {
+  font-family: Verdana, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, Geneva, Arial;
+  font-weight: 400;
+  font-size: 12px;
+}
+.banan h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 38.0833px;
+}
+.banan h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 33.2833px;
+  font-size: 25.6px;
+}
+.banan h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.banan p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.tall h1 {
+  font-family: "Calder Dark", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.tall h2 {
+  font-family: "Calder Dark", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.tall h3 {
+  font-family: "Calder Dark", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.tall p {
+  font-family: "Calder Dark", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}

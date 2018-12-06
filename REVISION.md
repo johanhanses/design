@@ -2,11 +2,14 @@ Revision history
 ================
 
 
+v.4.0.1 (2018-12-06)
+---------------------
+* Finished color analys and minimalistic theme, started colorful theme
+
 
 v.3.1.4 (2018-11-29)
 ---------------------
 * Made some changes to kmom03 and started kmom04
-
 
 
 v.3.1.3 (2018-11-27)

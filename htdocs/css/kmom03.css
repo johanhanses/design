@@ -4700,8 +4700,8 @@ h4 + h5 {
 h5 {
   font-size: 1.25em;
   line-height: 1.2;
-  margin-bottom: 24px;
-  border-bottom: 0px solid #EEE;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -4709,8 +4709,8 @@ h5 + h6 {
 h6 {
   font-size: 1.25em;
   line-height: 1.2;
-  margin-bottom: 24px;
-  border-bottom: 0px solid #EEE;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 p {
   margin-bottom: 24px;

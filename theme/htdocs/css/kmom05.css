@@ -4698,8 +4698,8 @@ h4 + h5 {
 h5 {
   font-size: 1.25em;
   line-height: 1.06666667;
-  margin-bottom: 24px;
-  border-bottom: 0px solid #EEE;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -4707,8 +4707,8 @@ h5 + h6 {
 h6 {
   font-size: 1.25em;
   line-height: 1.06666667;
-  margin-bottom: 24px;
-  border-bottom: 0px solid #EEE;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 p {
   margin-bottom: 24px;
@@ -5139,9 +5139,6 @@ hr::after {
   margin-left: 50.52083333%;
   text-align: right;
 }
-.right {
-  float: right;
-}
 .byline-img {
   display: inline;
   float: left;
@@ -5420,6 +5417,134 @@ hr::after {
   font-weight: 700;
   src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdr.ttf) format('truetype');
 }
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 12px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 963px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 687.5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 367px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 366.66666667px;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
 .region-header-col-1 img {
   display: none;
 }
@@ -5430,7 +5555,9 @@ hr::after {
   margin-left: 21.35416667%;
 }
 .rm-desktop ul {
-  display: none;
+  background-color: #333;
+  color: #eee;
+  opacity: 1;
 }
 .outer-wrap-flash {
   display: none;
@@ -5440,6 +5567,7 @@ a {
 }
 body {
   background-color: #eee;
+  color: #333;
 }
 code {
   background-color: #eee;

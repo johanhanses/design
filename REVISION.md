@@ -2,9 +2,19 @@ Revision history
 ================
 
 
+v.5.0.1 (2018-12-08)
+---------------------
+* kmom05 inserted desinax.figure and blogg module
+
+
+v.5.0.0 (2018-12-08)
+---------------------
+* kmom05 started.
+
+
 v.4.0.3 (2018-12-06)
 ---------------------
-* kmom04 finished. 
+* kmom04 finished.
 
 
 v.4.0.2 (2018-12-06)

@@ -4698,8 +4698,8 @@ h4 + h5 {
 h5 {
   font-size: 1.25em;
   line-height: 1.06666667;
-  margin-bottom: 24px;
-  border-bottom: 0px solid #EEE;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -4707,8 +4707,8 @@ h5 + h6 {
 h6 {
   font-size: 1.25em;
   line-height: 1.06666667;
-  margin-bottom: 24px;
-  border-bottom: 0px solid #EEE;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 p {
   margin-bottom: 24px;
@@ -5138,9 +5138,6 @@ hr::after {
   margin-right: 0.52083333%;
   margin-left: 50.52083333%;
   text-align: right;
-}
-.right {
-  float: right;
 }
 .byline-img {
   display: inline;

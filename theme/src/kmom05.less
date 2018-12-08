@@ -1,0 +1,76 @@
+/*!
+ * Theme for design kmom05.
+ *
+ * This stylesheet is for the design course and kmom05 where we use LESS.
+ */
+@import "kmom04-basetheme.less";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700');
+
+//hide header stuff
+.region-header-col-1 img {
+    display: none;
+}
+
+.site-logo-text {
+    display: none;
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.push(5);
+}
+
+.rm-desktop ul {
+    display: none;
+}
+
+//hide flash img
+.outer-wrap-flash {
+    display: none;
+}
+
+//style
+a {
+    color: @linkColor;
+}
+
+body {
+    background-color: @bgColorBody;
+    // font-family: @fontFamilyBody;
+}
+
+code {
+    background-color: @bgColorBody;
+    border: none;
+}
+
+
+
+//colors
+
+// @bgColorHtml: #eee;
+@bgColorBody: #eee;
+// @colorBody: #333;
+// @colorHeadAndFoot: #eee;
+@linkColor: #456439;
+// @linkColorFooter: #333;
+// @bgColorHeader: #333;
+// @bgColorFooter: #333;
+//
+// // Adapt the typographic grid to my style
+@fontFamilyHeadings: 'Source Sans Pro', 'sans-serif';
+@fontFamilyBody: 'Source Sans Pro', 'sans-serif';
+// @fontFamilyCode:     @fontFamilyGaramond; //"monospace";
+//
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 18px;
+//
+// // extra mega saker
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//     font-weight: 200;
+// }

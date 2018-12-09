@@ -5562,14 +5562,31 @@ figure.figure-codepen {
 .outer-wrap-flash {
   display: none;
 }
-a {
-  color: #456439;
+html {
+  background-color: #eee;
 }
 body {
   background-color: #eee;
   color: #333;
 }
+a {
+  color: #456439;
+}
+hr::after {
+  background-color: #eee;
+}
 code {
   background-color: #eee;
   border: none;
+}
+footer {
+  clear: both;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
 }

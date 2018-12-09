@@ -27,7 +27,7 @@ $currentUrl = currentUrl();
 ?><div <?= classList($classes) ?>>
 
     <h4><?= $title ?></h4>
-    
+
     <ul class="toc">
 
         <?php
@@ -36,7 +36,7 @@ $currentUrl = currentUrl();
             if ($item["linkable"] !== false) {
                 $text = "<a href=\"" . url($route) . "\">$text</a>";
             }
-            
+
             $class = "level-${item["level"]}";
             if ($item["sectionHeader"] === true) {
                 $class = "section-header";
@@ -45,7 +45,7 @@ $currentUrl = currentUrl();
             if (strcmp(url($route), $currentUrl) === 0) {
                 $class .= " selected";
             }
-            
+
             ?><li class="<?= $class ?>"><?= $text ?></li><?php
         } ?>
 

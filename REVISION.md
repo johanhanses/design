@@ -2,6 +2,11 @@ Revision history
 ================
 
 
+v.5.0.2 (2018-12-09)
+---------------------
+* only text left to blog assignment.
+
+
 v.5.0.1 (2018-12-08)
 ---------------------
 * kmom05 inserted desinax.figure and blogg module

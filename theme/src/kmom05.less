@@ -19,7 +19,8 @@
 
 // Enable style from the module and optinally add customized layout
 figure.figure {
-    #desinax-figure.figure();
+    @maxContentWidth: 1100px;
+    #desinax-figure.figure(@maxContentWidth);
 }
 
 figure.asciinema {
@@ -32,6 +33,7 @@ figure.figure-codepen {
     &:extend(figure.figure);
     #desinax-figure.codepen();
 }
+
 
 
 
@@ -64,8 +66,9 @@ figure.figure-codepen {
 
 
 //style
-a {
-    color: @linkColor;
+
+html {
+    background-color: @bgColorHtml;
 }
 
 body {
@@ -73,16 +76,28 @@ body {
     color: @colorBody;
 }
 
+a {
+    color: @linkColor;
+}
+
+hr::after {
+    background-color: @bgColorBody;
+}
+
 code {
     background-color: @bgColorBody;
     border: none;
+}
+
+footer {
+    clear: both;
 }
 
 
 
 //colors
 
-// @bgColorHtml: #eee;
+@bgColorHtml: #eee;
 @bgColorBody: #eee;
 @colorBody: #333;
 // @colorHeadAndFoot: #eee;
@@ -100,12 +115,13 @@ code {
 @magicNumber:  24px;  // 22px
 @fontSizeBody: 18px;
 //
-// // extra mega saker
-// h1,
-// h2,
-// h3,
-// h4,
-// h5,
-// h6 {
-//     font-weight: 200;
-// }
+// extra mega saker
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    // font-weight: 200;
+    clear: both;
+}

@@ -1,3 +1,3 @@
-#### Nytt och Noterat
+#### Bildbloggen
 
-Kortare blogginlägg om vad som händer på dbwebb.se, kurserna samt webbprogrammering och webbutveckling med HTML, CSS, JavaScript, PHP och SQL i allmänhet.
+Här visas bilder på olika sätt genom att använda CImage biblioteket och @desinax figures.

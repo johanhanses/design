@@ -19,7 +19,7 @@ Denna bild sträcker sig över hela sidan
 
 [FIGURE src="image/IMG_3.jpg?area=30, 20, 30, 40&sharpen&w=350&crop-to-fit" class="right w33" caption="Bild till höger på Arvid som busar till skogs" alt="Arvid busar till skogs"]
 
-text  
+Denna på Arvid är tagen till skogs i våras. Bilden är tagen med en Iphone 8. Bilden är skalad till 1050 x 1400 pixlar i Gimp och sedan ytterligare skalad i genom Cimage. På bilden här till höger har verktyget sharpen applicerats på bilden.
 
 
 
@@ -28,10 +28,10 @@ text
 
 [FIGURE src="image/IMG_3.jpg?area=30, 20, 30, 40&sharpen&w=350&crop-to-fit&sc=sepia" class="left w33" caption="Bild till vänster på Arvid som busar till skogs" alt="Arvid busar till skogs"]
 
-text  
+På bilden här till vänster har verktygen sharpen och sc=sepia applicerats.
 
 ##  Bilden centrerad med ett annat filter {#vad-som}
 
 [FIGURE src="image/IMG_3.jpg?w=350&sharpen&f=negate" class="center" caption="Centrerad bild på Arvid som busar till skogs" alt="Arvid busar till skogs"]
 
-text text
+På bilden ovan har verktygen sharpen och f=negate applicerats.

@@ -2,6 +2,11 @@ Revision history
 ================
 
 
+v.5.0.4 (2018-12-17)
+---------------------
+* all done except report text.
+
+
 v.5.0.3 (2018-12-16)
 ---------------------
 * analysis assignment done.

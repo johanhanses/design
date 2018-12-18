@@ -1,4 +1,4 @@
 My me/report
 ============
 
-Här skriver jag något om repot och mig  
+Mitt gitrepo för kursen design vid BTH

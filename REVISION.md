@@ -2,6 +2,11 @@ Revision history
 ================
 
 
+v.5.0.5 (2018-12-18)
+---------------------
+* kmom05 done, finally.
+
+
 v.5.0.4 (2018-12-17)
 ---------------------
 * all done except report text.

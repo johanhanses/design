@@ -1,0 +1,168 @@
+/*!
+ * Theme for design kmom06-designelement.
+ *
+ * This stylesheet is for the design course and kmom05 where we use LESS.
+ */
+@import "kmom04-basetheme.less";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700');
+
+
+
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    @maxContentWidth: 1100px;
+    #desinax-figure.figure(@maxContentWidth);
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+
+
+//hide col1 header stuff
+.region-header-col-1 img {
+    display: none;
+}
+
+.site-logo-text {
+    display: none;
+}
+
+//adapt the header
+// .region-header-col-1,
+.region-header-col-3 {
+    #desinax-vgrid.column(4);
+}
+
+.region-header-col-2 {
+    #desinax-vgrid.column(16);
+    text-align: center;
+}
+
+
+
+.region-header-col-2 {
+    #desinax-vgrid.push(4);
+}
+
+.inner-wrap-header {
+    background: pink;
+    color: @colorBody;
+    box-sizing: border-box;
+    border: dotted @colorBody;
+    border-radius: 15px;
+}
+
+//adapt the grid for 100% width flash
+.vgrid .inner-wrap {
+    @gridImage: "./img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header .inner-wrap-flash {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}
+
+.inner-wrap-flash {
+    #desinax-vgrid.grid(100%);
+    display: none;
+}
+
+
+
+//style
+html {
+    // background-color: @bgColorHtml;
+    background: url("../image/bgpic2.jpg?w=1400&crop-to-fit") no-repeat fixed center;
+}
+
+body {
+    // background-color: @bgColorBody;
+    color: @colorBody;
+}
+
+.rm-desktop ul {
+    color: #eee;
+    opacity: 0.9;
+    border: dotted @colorBody;
+    border-radius: 15px;
+    background: pink;
+    color: @colorBody;
+}
+
+a {
+    color: @linkColor;
+}
+
+hr::after {
+    background-color: @bgColorBody;
+}
+
+code {
+    background-color: @bgColorBody;
+    border: none;
+}
+
+footer {
+    clear: both;
+}
+
+//footer style
+.footer-column {
+    background: pink;
+    color: @colorBody;
+    box-sizing: border-box;
+    border: dotted @colorBody;
+    min-height: 12em;
+    border-radius: 15px;
+}
+
+
+
+//colors
+@bgColorHtml: #eee;
+@bgColorBody: #eee;
+@colorBody: #333;
+// @colorHeadAndFoot: #eee;
+@linkColor: #456439;
+// @linkColorFooter: #333;
+// @bgColorHeader: #333;
+// @bgColorFooter: #333;
+
+// Adapt the typographic grid to my style
+@fontFamilyHeadings: 'Source Sans Pro', 'sans-serif';
+@fontFamilyBody: 'Source Sans Pro', 'sans-serif';
+// @fontFamilyCode:     @fontFamilyGaramond; //"monospace";
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 18px;
+
+// extra mega saker
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    // font-weight: 200;
+    clear: both;
+}

@@ -51,6 +51,11 @@ return [
                         "url" => "redovisning/kmom06",
                         "title" => "Redovisning för kmom06.",
                     ],
+                    [
+                        "text" => "Kmom07/10",
+                        "url" => "redovisning/kmom07/10",
+                        "title" => "Redovisning för kmom07/10.",
+                    ],
                 ],
             ],
         ],
@@ -73,6 +78,11 @@ return [
             "text" => "Test",
             "url" => "test",
             "title" => "Lekstuga",
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg.",
         ],
         [
             "text" => "Rapport",

@@ -5564,7 +5564,7 @@ figure.figure-codepen {
   margin-left: 17.1875%;
 }
 .inner-wrap-header {
-  background: pink;
+  background: steelblue;
   color: #333;
   box-sizing: border-box;
   border: dotted #333;
@@ -5595,7 +5595,7 @@ figure.figure-codepen {
   display: none;
 }
 html {
-  background: url("../image/bgpic2.jpg?w=1400&crop-to-fit") no-repeat fixed center;
+  background: url("../image/bgpic3.jpg?w=1400&crop-to-fit") no-repeat fixed center;
 }
 body {
   color: #333;
@@ -5605,11 +5605,11 @@ body {
   opacity: 0.9;
   border: dotted #333;
   border-radius: 15px;
-  background: pink;
+  background: steelblue;
   color: #333;
 }
 a {
-  color: #456439;
+  color: #333;
 }
 hr::after {
   background-color: #eee;
@@ -5622,7 +5622,7 @@ footer {
   clear: both;
 }
 .footer-column {
-  background: pink;
+  background: steelblue;
   color: #333;
   box-sizing: border-box;
   border: dotted #333;

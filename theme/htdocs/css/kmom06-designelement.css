@@ -5599,6 +5599,7 @@ html {
 }
 body {
   color: #333;
+  font-weight: bold;
 }
 .rm-desktop ul {
   color: #eee;
@@ -5615,8 +5616,14 @@ hr::after {
   background-color: #eee;
 }
 code {
-  background-color: #eee;
+  background-color: steelblue;
   border: none;
+}
+img {
+  border-radius: 15px;
+}
+p {
+  letter-spacing: 0.05em;
 }
 footer {
   clear: both;

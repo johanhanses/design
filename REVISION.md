@@ -2,6 +2,11 @@ Revision history
 ================
 
 
+v.6.0.3 (2019-01-03)
+---------------------
+* kmom06 designelement theme done.
+
+
 v.6.0.2 (2019-01-02)
 ---------------------
 * kmom06 analysis done.

@@ -6,7 +6,10 @@
 
 //import basetheme and font
 @import "kmom04-basetheme.less";
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700');
+// @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700');
+// @import url('https://fonts.googleapis.com/css?family=Lato:100,300');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,300');
+
 
 
 
@@ -63,7 +66,11 @@ figure.figure-codepen {
     #desinax-vgrid.push(0);
 }
 
-
+.row {
+    #desinax-vgrid.row();
+    // background-color: #0f0;
+    margin-bottom: 0;
+}
 
 //adapt the grid for 100% width flash
 .vgrid .inner-wrap {
@@ -112,7 +119,8 @@ a {
 }
 
 hr::after {
-    // background-color: @bgColorBody;
+    background-color: @bgColorBody;
+    color: @colorBody;
 }
 
 code {
@@ -160,8 +168,10 @@ footer {
 // @bgColorFooter: #333;
 
 // Adapt the typographic grid to my style
-@fontFamilyHeadings: 'Source Sans Pro', 'sans-serif';
-@fontFamilyBody: 'Source Sans Pro', 'sans-serif';
+// @fontFamilyHeadings: 'Source Sans Pro', 'sans-serif';
+// @fontFamilyBody: 'Source Sans Pro', 'sans-serif';
+@fontFamilyHeadings: 'Roboto Mono', 'monospace';
+@fontFamilyBody: 'Roboto Mono', 'monospace';
 // @fontFamilyCode:     @fontFamilyGaramond; //"monospace";
 
 // Magic number and base fontsize
@@ -175,6 +185,6 @@ h3,
 h4,
 h5,
 h6 {
-    // font-weight: 200;
+    font-weight: 100;
     clear: both;
 }

@@ -1,8 +1,10 @@
 /*!
- * Theme for design kmom06-designelement.
+ * Theme for design kmom06-designprinciper.
  *
  * This stylesheet is for the design course and kmom05 where we use LESS.
  */
+
+//import basetheme and font
 @import "kmom04-basetheme.less";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700');
 
@@ -36,39 +38,32 @@ figure.figure-codepen {
 
 
 
-//hide col1 header stuff
-.region-header-col-1 img {
+//hide col 1 header stuff
+.region-header-col-1 {
+    #desinax-vgrid.column(0);
     display: none;
 }
 
 .site-logo-text {
-    display: none;
+    // display: none;
 }
 
 //adapt the header
 // .region-header-col-1,
 .region-header-col-3 {
-    #desinax-vgrid.column(4);
+    #desinax-vgrid.column(2);
 }
 
 .region-header-col-2 {
-    #desinax-vgrid.column(16);
-    text-align: center;
+    #desinax-vgrid.column(22);
+    text-align: left;
 }
-
-
 
 .region-header-col-2 {
-    #desinax-vgrid.push(4);
+    #desinax-vgrid.push(0);
 }
 
-.inner-wrap-header {
-    background: @colorHeadAndFoot;
-    color: @colorBody;
-    box-sizing: border-box;
-    border: dotted @colorBody;
-    border-radius: 15px;
-}
+
 
 //adapt the grid for 100% width flash
 .vgrid .inner-wrap {
@@ -83,7 +78,7 @@ figure.figure-codepen {
 
 .inner-wrap-flash {
     #desinax-vgrid.grid(100%);
-    display: none;
+    // display: none;
 }
 
 
@@ -91,22 +86,25 @@ figure.figure-codepen {
 //style
 html {
     // background-color: @bgColorHtml;
-    background: url("../image/bgpic3.jpg?w=1400&crop-to-fit") no-repeat fixed center;
+    // background: url("../image/bgpic3.jpg?w=1400&crop-to-fit") no-repeat fixed center;
 }
 
-body {
-    // background-color: @bgColorBody;
+.wrap-all {
+    background-color: @bgColorBody;
     color: @colorBody;
-    font-weight: bold;
+    // font-weight: bold;
+}
+
+.inner-wrap-header {
+    background-color: @bgColorHeader;
 }
 
 .rm-desktop ul {
     color: #eee;
-    opacity: 0.9;
-    border: dotted @colorBody;
-    border-radius: 15px;
-    background: @colorHeadAndFoot;
-    color: @colorBody;
+    opacity: 1;
+    // border: dotted @colorBody;
+    // border-radius: 15px;
+    // background: @colorHeadAndFoot;
 }
 
 a {
@@ -114,46 +112,51 @@ a {
 }
 
 hr::after {
-    background-color: @bgColorBody;
+    // background-color: @bgColorBody;
 }
 
 code {
-    background-color: @colorHeadAndFoot;
+    background-color: @bgColorBody;
     border: none;
 }
 
 img {
-    border-radius: 15px;
+    // border-radius: 15px;
 }
 
 p {
-    letter-spacing: 0.05em;
+    // letter-spacing: 0.05em;
 }
+
+
+
+//footer style
 
 footer {
     clear: both;
 }
 
-//footer style
-.footer-column {
-    background: @colorHeadAndFoot;
-    color: @colorBody;
-    box-sizing: border-box;
-    border: dotted @colorBody;
-    min-height: 12em;
-    border-radius: 15px;
+.inner-wrap-footer {
+    background: @bgColorBody;
+    overflow: auto;
+    // color: @colorBody;
+    // box-sizing: border-box;
+    // border: dotted @colorBody;
+    // min-height: 12em;
+    // border-radius: 15px;
 }
 
 
 
 //colors
-@bgColorHtml: steelblue;
-@bgColorBody: steelblue;
-@colorBody: #333;
-@colorHeadAndFoot: steelblue;
-@linkColor: #333;
+@bgColorHtml: #060F11;
+@bgColorBody: #060F11;
+@bgColorHeader: #0E1316;
+@colorBody: #eee;
+@colorHeader: #eee;
+@colorHeadAndFoot: #eee;
+@linkColor: #eee;
 // @linkColorFooter: #333;
-// @bgColorHeader: #333;
 // @bgColorFooter: #333;
 
 // Adapt the typographic grid to my style

@@ -5613,7 +5613,7 @@ a {
   color: #333;
 }
 hr::after {
-  background-color: #eee;
+  background-color: steelblue;
 }
 code {
   background-color: steelblue;

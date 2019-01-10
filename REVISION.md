@@ -2,6 +2,11 @@ Revision history
 ================
 
 
+v.10.1.1 (2019-01-10)
+---------------------
+* prepping for analysis assignment
+
+
 v.6.0.6 (2019-01-07)
 ---------------------
 * kmom06 finished.

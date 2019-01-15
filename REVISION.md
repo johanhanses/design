@@ -2,6 +2,11 @@ Revision history
 ================
 
 
+v.10.1.2 (2019-01-15)
+---------------------
+* Done and done.
+
+
 v.10.1.1 (2019-01-10)
 ---------------------
 * prepping for analysis assignment
